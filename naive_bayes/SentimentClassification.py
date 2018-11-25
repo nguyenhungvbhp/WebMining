@@ -49,6 +49,6 @@ class SentimentClassification(object):
         return predicted[0]
 
 
-if __name__ == '__main__':
-    tcp = SentimentClassification()
-    tcp.get_train_data('Ngon quá')
+# if __name__ == '__main__':
+#     tcp = SentimentClassification()
+#     tcp.get_train_data('Ngon quá')
